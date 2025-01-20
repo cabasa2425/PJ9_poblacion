@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Países</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .pais-info {
+            margin-top: 20px;
+        }
+        .pais-info h2 {
+            margin-top: 20px;
+        }
+        .pais-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .pais-info img {
+            max-width: 200px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Selecciona un país para ver la información</h1>
+    <select id="paisSelect">
+        <option value="Irlanda">Irlanda</option>
+        <option value="Grecia">Grecia</option>
+        <option value="España">España</option>
+    </select><br>
+    <label>FACTORES</label>
+    <input type="checkbox" id="historicos">Historico
+    <input type="checkbox" id="culturales">Cultural
+    <input type="checkbox" id="tecnologicos">Tecnológico
+    <input type="checkbox" id="economicos">Económico<br>
+    <br>
+    <label>CARACTERÍSTICAS</label>
+    <input type="checkbox" id="consecuencias_efectos">consecuencias y efectos
+    <input type="checkbox" id="oportunidades">Oportunidades
+    <input type="checkbox" id="analisis_demografico">Demográfico
+    <input type="checkbox" id="proyecciones_a_futuro">proyecciones a futuro
+    <input type="checkbox" id="posibles_soluciones">Posibles soluciones<br>
+    <div id="paisInfo" class="pais-info"></div>
+
+    <script src="urlfiltro.js">
+      
+    </script>
+
+</body>
+</html>

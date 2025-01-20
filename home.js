@@ -1,132 +1,105 @@
-window.onload = function() {
+window.onload = function () {
     var canva = document.getElementById('canva');
     var ctx = canva.getContext('2d');
+
     
+    const BASE_WIDTH = 1920;
+    const BASE_HEIGHT = 1080;
+
     var squares = [
-        { x: 720, y: 130, width: 170, height: 100, color: 'transparent', url: "filter=Islands" },
-        { x: 800, y: 430, width: 250, height: 200, color: 'transparent', url: "filter=Islands" },
-        { x: 950, y: 650, width: 200, height: 220, color: 'transparent', url: "filter=France" },
-        { x: 1110, y: 530, width: 220, height: 200, color: 'transparent', url: "filter=Spain" },
-        { x: 720, y: 835, width: 250, height: 170, color: 'transparent', url: "filter=Gernamny" },
-        { x: 1150, y: 780, width: 200, height: 100, color: 'transparent', url: "filter=Italy" },
-        { x: 1310, y: 880, width: 120, height: 150, color: 'transparent', url: "filter=Italy" },
-        { x: 1530, y: 900, width: 150, height: 150, color: 'transparent', url: "filter=Italy" },
-        { x: 1330, y: 550, width: 190, height: 210, color: 'transparent', url: "filter=Poland" },
-        { x: 1180, y: 220, width: 190, height: 310, color: 'transparent', url: "filter=Poland" },
-        { x: 1350, y: 70, width: 190, height: 310, color: 'transparent', url: "filter=Poland" },
-        { x: 1550, y: 50, width: 440, height: 650, color: 'tranparent', url: "filter=Russia" },
-        { x: 1440, y: 390, width: 120, height: 140, color: 'transparent', url: "filter=Russia" },
-        { x: 1530, y: 700, width: 180, height: 180, color: 'transparent', url: "filter=Romania" },
-        { x: 1360, y: 770, width: 180, height: 90, color: 'transparent', url: "filter=Romania" },
-        { x: 1460, y: 850, width: 90, height: 70, color: 'transparent', url: "filter=Romania" }
+        { x: 650, y: 110, width: 150, height: 100, color: 'transparent', url: "Islandia" },
+        { x: 710, y: 500, width: 80, height: 80, color: 'transparent', url: "Irlanda" },
+        { x: 800, y: 400, width: 120, height: 200, color: 'transparent', url: "UK" },
+        { x: 820, y: 660, width: 200, height: 150, color: 'red', url: "Francia" },
+        { x: 700, y: 820, width: 185, height: 150, color: 'black', url: "España" },
+        { x: 1050, y: 520, width: 110, height: 180, color: 'yellow', url: "Alemania" },
+        { x: 990, y: 550, width: 40, height: 60, color: 'green', url: "Holanda" },
+        { x: 965, y: 610, width: 50, height: 30, color: 'purple', url: "Bélgica" },
+        { x: 1025, y: 705, width: 80, height: 50, color: 'red', url: "Suiza" },
+        { x: 1025, y: 770, width: 180, height: 280, color: 'green', url: "Italia" },
+        { x: 1160, y: 725, width: 60, height: 50, color: 'green', url: "Slovenia" },
+        { x: 620, y: 820, width: 60, height: 150, color: 'green', url: "Portugal" },
+        { x: 1140, y: 680, width: 90, height: 50, color: 'yellow', url: "Austria" },
+        { x: 1160, y: 620, width: 100, height: 50, color: 'purple', url:"Republica_Checa" },
+        { x: 1250, y: 650, width: 100, height: 45, color: 'orange', url:"Eslovaquia" },
+        { x: 1240, y: 700, width: 100, height: 45, color: 'black', url:"Hungria" },
+        { x: 1240, y: 700, width: 100, height: 45, color: 'black', url:"Hungria" }, 
     ];
 
     function draw() {
         canva.width = window.innerWidth * 0.9;
         canva.height = window.innerHeight * 0.9;
 
+        let scaleX = canva.width / BASE_WIDTH;
+        let scaleY = canva.height / BASE_HEIGHT;
+
         var img = new Image();
         img.src = '71vs.webp';
-        img.onload = function() {
+
+        img.onload = function () {
             ctx.drawImage(img, 0, 0, canva.width, canva.height);
 
             squares.forEach(square => {
                 ctx.fillStyle = square.color;
-                ctx.fillRect(square.x, square.y, square.width, square.height);
-                
+                ctx.fillRect(
+                    square.x * scaleX,
+                    square.y * scaleY,
+                    square.width * scaleX,
+                    square.height * scaleY
+                );
             });
         };
     }
 
     window.addEventListener('resize', draw);
 
-    canva.addEventListener('mousemove', function(event) {
+    canva.addEventListener('mousemove', function (event) {
         var rect = canva.getBoundingClientRect();
         var x = event.clientX - rect.left;
         var y = event.clientY - rect.top;
 
+        var scaleX = canva.width / BASE_WIDTH;
+        var scaleY = canva.height / BASE_HEIGHT;
+
         var isOverSquare = false;
         squares.forEach(square => {
-            if (x >= square.x && x <= square.x + square.width &&
-                y >= square.y && y <= square.y + square.height) {
+            let scaledX = square.x * scaleX;
+            let scaledY = square.y * scaleY;
+            let scaledWidth = square.width * scaleX;
+            let scaledHeight = square.height * scaleY;
+
+            if (x >= scaledX && x <= scaledX + scaledWidth &&
+                y >= scaledY && y <= scaledY + scaledHeight) {
                 canva.style.cursor = 'pointer';
                 isOverSquare = true;
-
             }
         });
+
         if (!isOverSquare) {
             canva.style.cursor = 'default';
         }
     });
 
-    canva.addEventListener('click', function(event) {
+    canva.addEventListener('click', function (event) {
         var rect = canva.getBoundingClientRect();
         var x = event.clientX - rect.left;
         var y = event.clientY - rect.top;
 
-        squares.forEach(square => {
-            if (x >= square.x && x <= square.x + square.width &&
-                y >= square.y && y <= square.y + square.height) {
-                window.location.href = square.url;
-            }
-            
-        })
+        var scaleX = canva.width / BASE_WIDTH;
+        var scaleY = canva.height / BASE_HEIGHT;
 
-    })
+        squares.forEach(square => {
+            let scaledX = square.x * scaleX;
+            let scaledY = square.y * scaleY;
+            let scaledWidth = square.width * scaleX;
+            let scaledHeight = square.height * scaleY;
+
+            if (x >= scaledX && x <= scaledX + scaledWidth &&
+                y >= scaledY && y <= scaledY + scaledHeight) {
+                window.location.href = "urlFiltro.html?pais=" + square.url;
+            }
+        });
+    });
 
     draw();
-
-
-    let options = document.querySelectorAll('.draggable');
-    let tds = document.querySelectorAll('.td');
-
-    let check = {
-    phrase1: "Historia",
-    phrase2: "Economía",
-    phrase3: "Cultura",
-    phrase4: "Tecnológicos",
-    phrase5: "Desafíos y Oportunidades",
-    };
-
-    options.forEach(o => {
-        o.addEventListener('dragstart', (e) => {
-            e.dataTransfer.setData('answer', e.target.id);
-        });
-    });
-
-    tds.forEach(td => {
-        td.addEventListener('dragover', (e) => {
-            e.preventDefault();
-            td.classList.add('drag-over');
-        });
-
-        td.addEventListener('dragleave', () => {
-            td.classList.remove('drag-over');
-        });
-
-        td.addEventListener('drop', (e) => {
-            e.preventDefault();
-            td.classList.remove('drag-over');
-            let id = e.dataTransfer.getData('answer');
-            let dragAnswer = document.getElementById(id);
-
-            if (!td.hasChildNodes()) {
-                td.appendChild(dragAnswer);
-
-                let table = td.closest('table');
-                let ths = table.querySelectorAll('th');
-                let spot = ths[td.cellIndex].innerText;
-
-                if (check[id] === spot) {
-                    td.style.backgroundColor = 'green';
-                } else {
-                    td.style.backgroundColor = 'red';
-                    setTimeout(() => {
-                        td.style.backgroundColor = "#d1e7dd";
-                    }, 1000);
-                } return 
-            }
-        });
-    });
-    
 };

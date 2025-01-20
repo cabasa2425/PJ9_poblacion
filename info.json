@@ -1,454 +1,286 @@
 {
-    "Austria": {
-        "Factores": {
-            "historicos": [
-                "Austria fue una potencia del Imperio Austrohúngaro, lo que favoreció el crecimiento económico y poblacional.",
-                "La Revolución Industrial impulsó el desarrollo urbano, pero las guerras mundiales afectaron gravemente la población y la economía.",
-                "La neutralidad tras la Segunda Guerra Mundial permitió a Austria reconstruir su economía y atraer inmigrantes durante la posguerra."
-            ],
-            "culturales": [
-                "Austria siempre ha sido un centro cultural en Europa, lo que atrajo a inmigrantes en busca de mejores oportunidades.",
-                "La política de bienestar social en el siglo XX favoreció la mejora de las condiciones de vida y la tasa de natalidad."
-            ],
-            "tecnologicos": [
-                "La industrialización favoreció el crecimiento, especialmente en los sectores textil, maquinaria y energía.",
-                "El sector tecnológico ha avanzado mucho en las últimas décadas, convirtiéndose en un centro de innovación en Europa Central."
-            ],
-            "economicos": [
-                "La economía austríaca se consolidó rápidamente después de la Segunda Guerra Mundial, lo que atrajo a inmigrantes de Europa del Este.",
-                "La adhesión a la UE en 1995 y la estabilidad económica han favorecido un crecimiento sostenido."
-            ]
+    "paises": [
+      {
+        "pais": "Irlanda",
+        "factores": {
+          "historicos": [
+            "A partir de la Revolución Industrial, Irlanda experimentó un cambio significativo en su estructura económica y social. La industrialización trajo consigo una migración interna desde las zonas rurales hacia las urbanas, buscando mejores oportunidades de trabajo.",
+            "La Gran Hambruna de 1845-1852 tuvo un impacto devastador en la población irlandesa, causando la muerte de aproximadamente un millón de personas y obligando a millones más a emigrar, especialmente hacia Estados Unidos y el Reino Unido.",
+            "Durante los siglos XIX y XX, Irlanda experimentó un notable crecimiento demográfico después de la hambruna, especialmente en la segunda mitad del siglo XX, debido a un incremento en las tasas de natalidad y una mejora en las condiciones de vida.",
+            "La independencia de Irlanda en 1922 fue un factor clave que permitió un control más directo sobre sus políticas demográficas y económicas, aunque la población siguió creciendo de manera constante hasta la década de 1970.",
+            "En las últimas décadas, Irlanda ha experimentado un crecimiento económico acelerado, especialmente a partir de la década de 1990, lo que ha generado una mayor atracción de inmigrantes, contribuyendo al crecimiento poblacional."
+          ],
+          "culturales": [
+            "La sociedad irlandesa ha sido históricamente muy influenciada por la religión católica, lo que ha jugado un papel importante en las tasas de natalidad hasta finales del siglo XX.",
+            "La inmigración de diferentes culturas, especialmente desde la ampliación de la Unión Europea, ha diversificado la población y modificado algunas tradiciones y comportamientos sociales."
+          ],
+          "tecnologicos": [
+            "La industrialización y la revolución tecnológica durante el siglo XIX y XX trajeron consigo la creación de nuevas industrias, principalmente textiles y alimentos, que incrementaron la demanda de mano de obra y contribuyeron a la urbanización.",
+            "En las últimas décadas, Irlanda ha experimentado una transición hacia una economía basada en el conocimiento, con sectores como la tecnología de la información, farmacéutica y la biotecnología tomando una importancia creciente."
+          ],
+          "economicos": [
+            "La economía irlandesa se transformó profundamente en el siglo XX, pasando de una economía agraria a una más industrializada, aunque la agricultura sigue siendo importante en algunas regiones.",
+            "El crecimiento económico experimentado a partir de los años 90, conocido como el 'Tigre Celta', impulsó un aumento en el empleo, aunque también contribuyó a la llegada de inmigrantes y al aumento de la población en áreas urbanas."
+          ]
         },
-        "Consecuencias": {
-            "crecimiento_poblacional": [
-                "Austria ha experimentado un crecimiento moderado, impulsado por la inmigración desde Europa del Este.",
-                "La población envejece, lo que genera una presión creciente sobre el sistema de pensiones y los servicios de salud."
-            ]
-        },
-        "Oportunidades": [
-            "Desarrollo de la economía del conocimiento y la innovación.",
-            "Aumento de la inversión extranjera debido a la estabilidad y la calidad de vida."
+        "consecuencias_efectos": [
+          "El crecimiento poblacional ha generado una mayor demanda de servicios públicos, como la educación, la salud y la vivienda, lo que ha presionado al sistema social del país.",
+          "Ha habido una concentración de población en las áreas urbanas, especialmente en Dublín, lo que ha llevado a la expansión de los suburbios y al incremento de los precios de la vivienda.",
+          "El crecimiento económico ha sido impulsado por el aumento de la población activa, especialmente en sectores como la tecnología y la biotecnología, lo que ha fortalecido la economía del país.",
+          "Sin embargo, este crecimiento también ha generado desigualdades regionales, con algunas áreas rurales enfrentando problemas de despoblación y falta de inversión.",
+          "El crecimiento urbano ha provocado una mayor demanda de infraestructuras, lo que ha llevado a la expansión de áreas construidas sobre tierras agrícolas y la degradación del medio ambiente en algunas zonas.",
+          "La presión sobre los recursos naturales, como el agua y la energía, ha aumentado debido al crecimiento poblacional y la expansión de las áreas urbanas."
         ],
-        "Analisis_demografico": {
-            "poblacion_actual": "9,0 millones (estimado en 2024).",
-            "crecimiento": "Crecimiento moderado, especialmente debido a la inmigración.",
-            "densidad": "Relativamente alta en áreas urbanas como Viena."
-        },
-        "Proyecciones_a_futuro": {
-            "2030": "Se espera que la población siga aumentando ligeramente gracias a la inmigración.",
-            "urbanizacion": "Mayor concentración en Viena y otras ciudades grandes.",
-            "demografia": "El envejecimiento seguirá siendo un desafío, con una creciente demanda de servicios médicos."
-        },
-        "Posibles_soluciones": [
-            "Incentivar la natalidad y las políticas familiares.",
-            "Mejorar la integración de los inmigrantes en la sociedad."
-        ]
-    },
-    "Bélgica": {
-        "Factores": {
-            "historicos": [
-                "La Revolución Industrial, especialmente en el siglo XIX, impulsó la migración interna y el crecimiento poblacional al generar empleo en sectores como la minería y la industria textil.",
-                "Las dos guerras mundiales impactaron negativamente la población debido a pérdidas humanas y migraciones masivas.",
-                "La independencia en 1830 estableció un marco político estable que favoreció el desarrollo económico y social."
-            ],
-            "culturales": [
-                "La diversidad lingüística y cultural (flamenca, francófona y germanófona) atrajo una variedad de inmigrantes durante diferentes épocas, especialmente desde la posguerra.",
-                "El fortalecimiento de la educación pública a partir del siglo XIX permitió una transición hacia una población más educada y productiva."
-            ],
-            "tecnologicos": [
-                "El desarrollo de infraestructuras modernas durante la Revolución Industrial facilitó la urbanización y el acceso a recursos.",
-                "Innovaciones en salud pública y medicina, como la vacunación masiva, redujeron la mortalidad infantil y aumentaron la esperanza de vida.",
-                "En el siglo XX y XXI, avances en transporte y telecomunicaciones atrajeron inversión y contribuyeron al crecimiento poblacional mediante la inmigración."
-            ],
-            "economicos": [
-                "El auge de la industria durante la Revolución Industrial consolidó a Bélgica como un centro económico en Europa.",
-                "El comercio internacional, reforzado por la ubicación estratégica de Bélgica, permitió un flujo constante de bienes, capital y personas.",
-                "En el siglo XX, el crecimiento del sector servicios y la economía basada en la UE atrajeron inmigrantes de países europeos y no europeos."
-            ]
-        },
-        "Consecuencias": {
-            "crecimiento_poblacional": [
-                "Incremento significativo de la urbanización, con ciudades como Bruselas y Amberes creciendo rápidamente.",
-                "Mayor demanda de servicios públicos, incluyendo vivienda, transporte y salud.",
-                "Desafíos relacionados con la integración de comunidades inmigrantes en una población multicultural."
-            ]
-        },
-        "Oportunidades": [
-            "Desarrollo de una economía diversificada gracias a la población activa joven y multicultural.",
-            "Posibilidad de liderar en innovación tecnológica y sostenibilidad debido a la alta densidad de población urbana.",
-            "Mayor atractivo para la inversión extranjera por la estabilidad demográfica y económica."
+        "oportunidades": [
+          "El crecimiento poblacional ha permitido a Irlanda atraer a empresas internacionales, especialmente en el sector tecnológico y farmacéutico, lo que sigue impulsando el crecimiento económico.",
+          "La diversidad demográfica también ofrece oportunidades para la creación de nuevos mercados y la adaptación a tendencias globales.",
+          "La inmigración ha enriquecido la vida cultural de Irlanda, trayendo consigo una diversidad de perspectivas y habilidades que pueden ser aprovechadas para innovar en diversos sectores, desde las artes hasta la ciencia.",
+          "El aumento de la población joven y la llegada de inmigrantes pueden contribuir al rejuvenecimiento de la fuerza laboral y al sostenimiento de sistemas de bienestar social a largo plazo."
         ],
-        "Analisis_demografico": {
-            "poblacion_actual": "11,7 millones (estimado en 2024).",
-            "crecimiento": "El crecimiento poblacional desde la Revolución Industrial ha sido moderado, influenciado por la industrialización, migraciones internas y externas, y avances en salud pública.",
-            "densidad": "Una de las más altas de Europa, con una concentración significativa en las principales ciudades y una reducción en áreas rurales."
-        },
-        "Proyecciones_a_futuro": {
-            "2030": "Se espera que la población alcance los 12 millones debido principalmente a la inmigración y un leve aumento en la natalidad.",
-            "urbanizacion": "Las áreas urbanas continuarán creciendo, lo que requerirá inversiones en vivienda y transporte sostenible.",
-            "demografia": "La población seguirá envejeciendo, aumentando la necesidad de servicios de salud y pensiones."
-        },
-        "Posibles_soluciones": [
-            "Fomentar políticas de natalidad mediante apoyo a las familias jóvenes.",
-            "Promover la integración social y cultural de las comunidades inmigrantes para reforzar la cohesión social.",
-            "Desarrollar estrategias para mitigar el impacto ambiental de la urbanización mediante tecnologías sostenibles.",
-            "Invertir en la modernización de infraestructuras urbanas y rurales para equilibrar la distribución poblacional."
-        ]
-    },
-    "Bulgaria": {
-        "Factores": {
-            "historicos": [
-                "La Revolución Industrial impulsó la urbanización y el crecimiento económico, especialmente en industrias como el textil y la minería.",
-                "El dominio otomano durante varios siglos retrasó el desarrollo, pero la independencia en 1908 permitió un auge económico que atrajo a trabajadores de otras regiones.",
-                "El régimen comunista de 1944-1989 promovió políticas de natalidad, pero la transición a la democracia y la economía de mercado en los 90 resultó en una fuerte emigración."
-            ],
-            "culturales": [
-                "Las tensiones étnicas y la emigración hacia Rusia, Europa Occidental y América afectaron las dinámicas poblacionales.",
-                "La religión ortodoxa y las tradiciones del campo siguen influyendo en las tasas de natalidad y la estructura familiar."
-            ],
-            "tecnologicos": [
-                "La industrialización durante el periodo socialista introdujo nuevas tecnologías, pero la falta de modernización tras la caída del comunismo retrasó la adopción de innovaciones.",
-                "El desarrollo de tecnologías agrícolas y la inversión en infraestructura han impulsado el crecimiento en algunas regiones."
-            ],
-            "economicos": [
-                "La agricultura y la minería fueron sectores clave durante la Revolución Industrial.",
-                "Tras la caída del régimen socialista, Bulgaria sufrió una transición difícil hacia una economía de mercado, lo que generó altos niveles de emigración hacia otros países europeos."
-            ]
-        },
-        "Consecuencias": {
-            "crecimiento_poblacional": [
-                "La emigración masiva y la baja tasa de natalidad han reducido significativamente la población.",
-                "El envejecimiento de la población afecta la fuerza laboral y aumenta la carga sobre los sistemas de pensiones y salud."
-            ]
-        },
-        "Oportunidades": [
-            "Revitalización de las zonas rurales mediante políticas agrícolas sostenibles.",
-            "Atracción de inversión extranjera gracias a los bajos costos laborales y la proximidad a la UE."
+        "analisis_demografico": [
+          "La población total de Irlanda es aproximadamente de 5 millones de habitantes en 2024.",
+          "La tasa de crecimiento poblacional ha sido moderada en las últimas décadas, impulsada principalmente por la inmigración.",
+          "La población irlandesa es relativamente joven, aunque se espera que la proporción de personas mayores aumente debido a una baja tasa de natalidad y a un aumento en la esperanza de vida.",
+          "La población está muy concentrada en las áreas urbanas, especialmente en la ciudad de Dublín, mientras que algunas áreas rurales enfrentan problemas de despoblación."
         ],
-        "Analisis_demografico": {
-            "poblacion_actual": "6,8 millones (estimado en 2024).",
-            "crecimiento": "Disminución de la población debido a la emigración y la baja natalidad.",
-            "densidad": "Relativamente baja, con una notable despoblación en las zonas rurales."
-        },
-        "Proyecciones_a_futuro": {
-            "2030": "Se espera que la población continúe disminuyendo, posiblemente por debajo de los 6,5 millones.",
-            "urbanizacion": "Mayor concentración en áreas urbanas como Sofía y Plovdiv.",
-            "demografia": "El envejecimiento progresivo aumentará la demanda de servicios sociales y de salud."
-        },
-        "Posibles_soluciones": [
-            "Políticas de incentivos a la natalidad.",
-            "Fomentar la emigración de retorno.",
-            "Desarrollar políticas de revitalización rural."
-        ]
-    },
-    "Chequia": {
-        "Factores": {
-            "historicos": [
-                "La industrialización en el siglo XIX y el auge de la producción textil y metalúrgica atrajo a trabajadores de otras regiones.",
-                "El dominio austrohúngaro y luego la independencia en 1918 establecieron las bases para un crecimiento sostenido.",
-                "La era socialista promovió el desarrollo industrial, aunque con altos costos sociales y económicos."
-            ],
-            "culturales": [
-                "La población checa ha sido históricamente homogénea, pero las olas de inmigración desde Europa del Este en la posguerra han modificado la demografía.",
-                "La transición de Chequia hacia una economía de mercado ha resultado en una mayor diversidad laboral y cultural."
-            ],
-            "tecnologicos": [
-                "El desarrollo de industrias de maquinaria y tecnología durante el periodo socialista contribuyó al crecimiento económico.",
-                "Chequia ha invertido en tecnología avanzada desde su adhesión a la UE, convirtiéndose en un centro de innovación."
-            ],
-            "economicos": [
-                "La economía checa creció rápidamente en el siglo XIX, consolidándose como una de las más desarrolladas de Europa Central.",
-                "La transición a la economía de mercado tras la caída del régimen socialista resultó en un fuerte crecimiento económico."
-            ]
-        },
-        "Consecuencias": {
-            "crecimiento_poblacional": [
-                "Crecimiento moderado, con una población envejecida debido a la baja tasa de natalidad y la alta esperanza de vida."
-            ]
-        },
-        "Oportunidades": [
-            "Aprovechar el sector tecnológico y las industrias avanzadas como motores de crecimiento económico.",
-            "Mejorar la integración de la población inmigrante y aprovechar el potencial de la fuerza laboral joven."
+        "proyecciones_a_futuro": [
+          "Se espera que la población de Irlanda siga creciendo de manera moderada, principalmente por la inmigración.",
+          "En las próximas décadas, Irlanda experimentará un envejecimiento de su población, lo que podría poner presión sobre los sistemas de pensiones y salud.",
+          "La urbanización continuará en aumento, especialmente en el área metropolitana de Dublín, lo que podría generar más desafíos relacionados con la vivienda y la infraestructura."
         ],
-        "Analisis_demografico": {
-            "poblacion_actual": "10,7 millones (estimado en 2024).",
-            "crecimiento": "Crecimiento moderado, influenciado por inmigración y un leve aumento en la natalidad.",
-            "densidad": "Alta densidad en las ciudades, especialmente en Praga."
-        },
-        "Proyecciones_a_futuro": {
-            "2030": "Se espera que la población continúe siendo estable, con un crecimiento marginal.",
-            "urbanizacion": "Continuará la urbanización, con un énfasis en ciudades como Praga y Brno.",
-            "demografia": "El envejecimiento demográfico será un desafío, similar al de otros países europeos."
-        },
-        "Posibles_soluciones": [
-            "Fomentar políticas de natalidad.",
-            "Promover la integración de inmigrantes en el mercado laboral y en la sociedad."
-        ]
-    },
-    "Dinamarca": {
-        "Factores": {
-            "historicos": [
-                "Dinamarca ha sido históricamente un reino marítimo con una fuerte economía pesquera y agrícola.",
-                "La Revolución Industrial contribuyó al crecimiento urbano y a la mejora de las infraestructuras en las ciudades.",
-                "Las políticas de bienestar social en el siglo XX aumentaron la calidad de vida, atrayendo inmigrantes."
-            ],
-            "culturales": [
-                "La sociedad danesa tiene una fuerte tradición en bienestar social y alta calidad de vida.",
-                "El país ha sido tradicionalmente una sociedad homogénea, aunque en las últimas décadas ha crecido la diversidad debido a la inmigración."
-            ],
-            "tecnologicos": [
-                "Dinamarca ha liderado el sector de la energía renovable, especialmente en energía eólica.",
-                "La digitalización ha avanzado significativamente, promoviendo el crecimiento en sectores como tecnología y servicios."
-            ],
-            "economicos": [
-                "La economía danesa se basa en el comercio, la industria y un sistema de bienestar robusto.",
-                "La entrada en la UE y el enfoque hacia la sostenibilidad han impulsado la economía."
-            ]
-        },
-        "Consecuencias": {
-            "crecimiento_poblacional": [
-                "El crecimiento poblacional ha sido moderado, con una importante inmigración de refugiados y trabajadores calificados."
-            ]
-        },
-        "Oportunidades": [
-            "Fortalecer la economía verde mediante innovaciones tecnológicas.",
-            "Promover políticas inclusivas para la integración de inmigrantes."
+        "posibles_soluciones": [
+          "Fomentar el desarrollo económico en áreas rurales para evitar la sobrepoblación en las grandes ciudades y distribuir de manera más equitativa los beneficios económicos.",
+          "Implementar políticas fiscales que atraigan más inversiones internacionales en sectores como la tecnología y la biotecnología, creando empleos y mejorando la competitividad.",
+          "Ampliar la oferta de viviendas asequibles en áreas urbanas para mitigar el aumento de los precios de la vivienda y la gentrificación.",
+          "Reforzar los programas de bienestar social y pensiones para abordar el envejecimiento de la población.",
+          "Desarrollar políticas de urbanismo sostenible que fomenten la construcción de viviendas ecológicas y la reutilización de recursos.",
+          "Incentivar el uso de energías renovables para hacer frente a las crecientes demandas de energía y reducir la huella de carbono del país."
         ],
-        "Analisis_demografico": {
-            "poblacion_actual": "5,9 millones (estimado en 2024).",
-            "crecimiento": "El crecimiento ha sido moderado, con inmigrantes contribuyendo al aumento.",
-            "densidad": "Relativamente baja, con una alta concentración en Copenhague."
+        "foto": "URL_o_ruta_de_imagen_irlanda.jpg"
+      },
+      {
+        "pais": "Grecia",
+        "factores": {
+          "historicos": [
+            "Grecia, como una de las cuna de la civilización occidental, ha tenido un impacto significativo en la evolución política, social y cultural de Europa. En el siglo XIX, después de una larga lucha de independencia contra el Imperio Otomano, Grecia logró su autonomía en 1830.",
+            "El siglo XX fue testigo de múltiples cambios, desde la ocupación nazi durante la Segunda Guerra Mundial hasta las tensiones políticas internas que llevaron a la dictadura de los coroneles en la década de 1960.",
+            "En las últimas décadas, la transición a la democracia y la integración en la Unión Europea en 1981 han sido factores clave que han influido en su estructura económica y demográfica."
+          ],
+          "culturales": [
+            "La rica historia cultural de Grecia sigue influyendo en su identidad. La religión ortodoxa griega y las tradiciones históricas son fundamentales en la vida diaria, aunque también se ha experimentado un cambio hacia una sociedad más plural y abierta debido a la globalización.",
+            "El turismo, basado en su patrimonio histórico, también ha contribuido a la inmigración y a la revitalización de varias ciudades y regiones."
+          ],
+          "tecnologicos": [
+            "La industrialización de Grecia fue relativamente tardía, pero la entrada en la Unión Europea permitió un crecimiento en infraestructura, comercio y tecnología, con un enfoque en el desarrollo de sectores como el turismo, la agricultura y más recientemente, la tecnología.",
+            "En los últimos años, Grecia ha invertido en tecnología digital y en la mejora de su infraestructura para fortalecer la economía nacional."
+          ],
+          "economicos": [
+            "Grecia ha pasado por varias crisis económicas, siendo la más reciente la crisis financiera de 2008, que afectó gravemente a su crecimiento poblacional y a su economía.",
+            "A pesar de los desafíos, el país ha experimentado una recuperación económica, impulsada por el turismo, las exportaciones agrícolas y los servicios, aunque la deuda pública sigue siendo una carga significativa."
+          ]
         },
-        "Proyecciones_a_futuro": {
-            "2030": "Se espera que la población continúe creciendo ligeramente debido a la inmigración.",
-            "urbanizacion": "La urbanización seguirá concentrándose en Copenhague y otras grandes ciudades.",
-            "demografia": "La población envejece, lo que requerirá adaptaciones en el sistema de bienestar."
-        },
-        "Posibles_soluciones": [
-            "Fomentar la natalidad con políticas de apoyo a las familias.",
-            "Aprovechar el potencial de las energías renovables para impulsar el crecimiento económico."
-        ]
-    },
-    "Alemania": {
-        "Factores": {
-            "historicos": [
-                "La Revolución Industrial, iniciada en el siglo XIX, transformó a Alemania en una potencia económica.",
-                "Las dos guerras mundiales, especialmente la Segunda Guerra Mundial, tuvieron efectos devastadores en la población.",
-                "La reunificación alemana en 1990 permitió un crecimiento económico en las zonas del Este, lo que atrajo inmigrantes."
-            ],
-            "culturales": [
-                "La inmigración a Alemania aumentó significativamente en el siglo XX debido a la necesidad de mano de obra, especialmente desde Turquía y Europa del Este.",
-                "La sociedad alemana tiene una fuerte orientación hacia la educación y la productividad."
-            ],
-            "tecnologicos": [
-                "Alemania es conocida por su industria automotriz, ingeniería y tecnología avanzada.",
-                "El sector tecnológico ha experimentado un crecimiento significativo en las últimas décadas."
-            ],
-            "economicos": [
-                "La economía alemana ha sido una de las más fuertes de Europa debido a su base industrial diversificada.",
-                "La reunificación trajo consigo una expansión económica, lo que también ha atraído inmigrantes."
-            ]
-        },
-        "Consecuencias": {
-            "crecimiento_poblacional": [
-                "El crecimiento poblacional ha sido sostenido, con un notable aumento de la inmigración desde los años 90."
-            ]
-        },
-        "Oportunidades": [
-            "Liderar la transición energética y las industrias sostenibles.",
-            "Integrar mejor a los inmigrantes en la fuerza laboral."
+        "consecuencias_efectos": [
+          "El crecimiento poblacional ha llevado a una mayor presión sobre los servicios de salud y educación, con un aumento en la demanda de estas infraestructuras en las grandes ciudades como Atenas y Tesalónica.",
+          "La crisis económica ha provocado una alta tasa de desempleo, especialmente entre los jóvenes, lo que ha generado un éxodo hacia otros países de la Unión Europea en busca de oportunidades laborales.",
+          "El envejecimiento de la población es una preocupación creciente, con una alta proporción de personas mayores que requieren atención médica y servicios de bienestar social."
         ],
-        "Analisis_demografico": {
-            "poblacion_actual": "83,1 millones (estimado en 2024).",
-            "crecimiento": "Crecimiento moderado debido a la inmigración.",
-            "densidad": "Alta densidad en ciudades como Berlín y Hamburgo."
-        },
-        "Proyecciones_a_futuro": {
-            "2030": "Se espera que la población crezca ligeramente gracias a la inmigración.",
-            "urbanizacion": "La urbanización continuará creciendo, especialmente en el sur y el oeste del país.",
-            "demografia": "El envejecimiento poblacional continuará siendo un desafío importante."
-        },
-        "Posibles_soluciones": [
-            "Promover políticas de integración de inmigrantes.",
-            "Fomentar la innovación tecnológica en el sector industrial."
-        ]
-    },
-    "Suecia": {
-        "Factores": {
-            "historicos": [
-                "Suecia permaneció neutral durante las dos guerras mundiales, lo que permitió un crecimiento económico estable.",
-                "La industrialización a principios del siglo XX contribuyó al desarrollo urbano y a una población creciente.",
-                "La migración masiva desde los años 60 y 70, principalmente debido a políticas de asilo y laborales, cambió la demografía del país."
-            ],
-            "culturales": [
-                "La política de igualdad de género y el acceso universal a la educación han mejorado las condiciones de vida.",
-                "Suecia ha promovido políticas multiculturales que atraen a personas de diversos orígenes."
-            ],
-            "tecnologicos": [
-                "El desarrollo de la tecnología en áreas como telecomunicaciones y biotecnología ha impulsado la economía y la atracción de talento extranjero.",
-                "Suecia es líder en energías renovables, lo que favorece su imagen como destino sostenible."
-            ],
-            "economicos": [
-                "El modelo de bienestar sueco asegura calidad de vida y estabilidad económica.",
-                "La economía diversificada y su adhesión a la UE han fortalecido su posición en el comercio global."
-            ]
-        },
-        "Consecuencias": {
-            "crecimiento_poblacional": [
-                "El crecimiento poblacional ha sido sostenido, especialmente debido a la inmigración.",
-                "La diversidad cultural ha aumentado, aunque genera desafíos en términos de integración."
-            ]
-        },
-        "Oportunidades": [
-            "Desarrollo de sectores como tecnología y energías limpias.",
-            "Aprovechar la diversidad para innovar en nuevos mercados."
+        "oportunidades": [
+          "Grecia sigue siendo un destino turístico clave debido a su patrimonio cultural e histórico, lo que ofrece oportunidades económicas para el país.",
+          "El crecimiento de la economía digital y la mejora de la infraestructura podrían crear nuevas oportunidades de empleo y atraer inversiones internacionales.",
+          "La diversificación de su economía, especialmente en sectores como las energías renovables y la tecnología, podría reducir la dependencia del turismo y fortalecer la economía a largo plazo."
         ],
-        "Analisis_demografico": {
-            "poblacion_actual": "10,6 millones (estimado en 2024).",
-            "crecimiento": "Sostenido por inmigración y alta calidad de vida.",
-            "densidad": "Concentrada en áreas urbanas como Estocolmo, Gotemburgo y Malmö."
-        },
-        "Proyecciones_a_futuro": {
-            "2030": "Se espera un crecimiento moderado impulsado por la inmigración.",
-            "urbanizacion": "Mayor concentración en áreas metropolitanas.",
-            "demografia": "El envejecimiento de la población será un desafío, aunque mitigado por la inmigración."
-        },
-        "Posibles_soluciones": [
-            "Promover políticas de integración inclusivas para inmigrantes.",
-            "Fomentar la innovación y las empresas emergentes en sectores tecnológicos."
-        ]
-    },
-    "Finlandia": {
-        "Factores": {
-            "historicos": [
-                "La independencia de Rusia en 1917 marcó el inicio de un desarrollo autónomo en economía y demografía.",
-                "El crecimiento poblacional se desaceleró después de las guerras de invierno y la Segunda Guerra Mundial.",
-                "Las políticas sociales de posguerra ayudaron a la recuperación económica y demográfica."
-            ],
-            "culturales": [
-                "El sistema educativo finlandés, reconocido mundialmente, ha contribuido a una sociedad altamente calificada.",
-                "La fuerte identidad cultural y el bilingüismo (finés y sueco) han promovido la cohesión social."
-            ],
-            "tecnologicos": [
-                "Finlandia es líder en tecnología móvil, con compañías como Nokia desempeñando un papel crucial en su economía.",
-                "El enfoque en la digitalización y la inteligencia artificial está diversificando la economía."
-            ],
-            "economicos": [
-                "La economía finlandesa ha dependido de sectores como la silvicultura, la tecnología y la educación.",
-                "La pertenencia a la UE ha fortalecido el comercio internacional y la estabilidad económica."
-            ]
-        },
-        "Consecuencias": {
-            "crecimiento_poblacional": [
-                "La población está envejeciendo rápidamente, lo que representa un desafío económico.",
-                "El crecimiento ha sido lento, impulsado principalmente por la inmigración reciente."
-            ]
-        },
-        "Oportunidades": [
-            "Desarrollo en inteligencia artificial y energías sostenibles.",
-            "Atraer talento internacional para contrarrestar la disminución de la población activa."
+        "analisis_demografico": [
+          "La población de Grecia está alrededor de los 10 millones de personas en 2024, aunque se ha reducido ligeramente en las últimas décadas debido a la baja tasa de natalidad y la emigración.",
+          "La población está envejeciendo rápidamente, con una gran proporción de personas mayores de 65 años, lo que plantea desafíos para los sistemas de pensiones y salud.",
+          "El crecimiento poblacional ha sido muy bajo, principalmente debido a la emigración, especialmente entre los jóvenes que buscan mejores oportunidades económicas en el extranjero."
         ],
-        "Analisis_demografico": {
-            "poblacion_actual": "5,6 millones (estimado en 2024).",
-            "crecimiento": "Lento, con un envejecimiento marcado de la población.",
-            "densidad": "Baja densidad en áreas rurales, concentrada en ciudades como Helsinki."
-        },
-        "Proyecciones_a_futuro": {
-            "2030": "Se espera una población estable o ligeramente decreciente debido a bajas tasas de natalidad.",
-            "urbanizacion": "Mayor concentración en áreas metropolitanas.",
-            "demografia": "El envejecimiento seguirá siendo un desafío, requiriendo reformas sociales."
-        },
-        "Posibles_soluciones": [
-            "Fomentar políticas para aumentar la natalidad.",
-            "Fortalecer la integración de inmigrantes en el mercado laboral."
-        ]
-    },
-    "Eslovenia": {
-        "Factores": {
-            "historicos": [
-                "Eslovenia obtuvo su independencia de Yugoslavia en 1991, marcando el inicio de un desarrollo autónomo.",
-                "La adhesión a la UE en 2004 impulsó la economía y las políticas sociales."
-            ],
-            "culturales": [
-                "La rica herencia cultural y su posición geográfica han facilitado intercambios multiculturales.",
-                "El enfoque en la educación ha mejorado la calidad de vida."
-            ],
-            "tecnologicos": [
-                "El desarrollo de tecnología avanzada ha posicionado a Eslovenia como un hub innovador en Europa Central.",
-                "Fuerte enfoque en investigación y desarrollo en sectores como biotecnología y TIC."
-            ],
-            "economicos": [
-                "La economía diversificada incluye manufactura, turismo y exportaciones agrícolas.",
-                "La pertenencia a la zona euro ha asegurado estabilidad financiera."
-            ]
-        },
-        "Consecuencias": {
-            "crecimiento_poblacional": [
-                "Crecimiento moderado, con una tendencia a la urbanización.",
-                "La emigración de jóvenes calificados es un desafío para la economía local."
-            ]
-        },
-        "Oportunidades": [
-            "Aumentar la inversión en innovación y sectores tecnológicos.",
-            "Desarrollar programas para retener talento joven."
+        "proyecciones_a_futuro": [
+          "Se espera que la población de Grecia siga disminuyendo, a menos que haya un cambio en la tasa de natalidad o en la emigración.",
+          "El envejecimiento de la población continuará siendo una de las principales preocupaciones, lo que generará una mayor presión sobre los servicios de bienestar social.",
+          "Se proyecta que el turismo siga siendo una parte importante de la economía griega, aunque podría haber un enfoque en la sostenibilidad y en el desarrollo de nuevas industrias para diversificar la economía."
         ],
-        "Analisis_demografico": {
-            "poblacion_actual": "2,1 millones (estimado en 2024).",
-            "crecimiento": "Estable pero lento, con una población envejecida.",
-            "densidad": "Alta densidad en áreas urbanas como Liubliana."
-        },
-        "Proyecciones_a_futuro": {
-            "2030": "Se espera estabilidad poblacional gracias a políticas migratorias equilibradas.",
-            "urbanizacion": "Mayor concentración en áreas metropolitanas.",
-            "demografia": "El envejecimiento seguirá siendo un desafío importante."
-        },
-        "Posibles_soluciones": [
-            "Implementar políticas para atraer y retener jóvenes profesionales.",
-            "Fomentar la natalidad mediante incentivos familiares."
-        ]
-    },
-    "Eslovaquia": {
-        "Factores": {
-            "historicos": [
-                "La separación de Checoslovaquia en 1993 marcó el inicio de una nueva etapa para Eslovaquia.",
-                "La industrialización y las reformas posteriores a la independencia impulsaron la economía."
-            ],
-            "culturales": [
-                "El enfoque en preservar tradiciones ha fortalecido la identidad nacional.",
-                "La educación ha sido clave para mejorar las oportunidades económicas."
-            ],
-            "tecnologicos": [
-                "El auge de la industria automotriz y la tecnología han diversificado la economía.",
-                "Creciente inversión en energías renovables y tecnología verde."
-            ],
-            "economicos": [
-                "La adhesión a la UE en 2004 ha promovido el comercio y la inversión extranjera.",
-                "La economía sigue creciendo, con manufactura como un pilar clave."
-            ]
-        },
-        "Consecuencias": {
-            "crecimiento_poblacional": [
-                "La emigración hacia países de Europa Occidental afecta el crecimiento.",
-                "Moderado aumento en áreas urbanas debido a la migración interna."
-            ]
-        },
-        "Oportunidades": [
-            "Expandir la industria tecnológica para crear más empleos.",
-            "Fomentar el retorno de emigrantes calificados."
+        "posibles_soluciones": [
+          "Fomentar políticas que incentiven la natalidad, como beneficios fiscales y apoyo a las familias jóvenes.",
+          "Promover la creación de empleo a través de la inversión en infraestructura tecnológica y energías renovables.",
+          "Atraer inversiones extranjeras para reducir la dependencia de los sectores tradicionales como el turismo y la agricultura.",
+          "Mejorar los servicios de salud y pensiones para hacer frente al envejecimiento de la población, especialmente mediante la promoción de la actividad física y el envejecimiento saludable.",
+          "Desarrollar programas que fomenten la retención de jóvenes profesionales y emprendedores para mitigar la emigración."
         ],
-        "Analisis_demografico": {
-            "poblacion_actual": "5,4 millones (estimado en 2024).",
-            "crecimiento": "Lento, con una alta tasa de emigración juvenil.",
-            "densidad": "Concentrada en Bratislava y otras ciudades importantes."
+        "foto": "URL_o_ruta_de_imagen_grecia.jpg"
+      },
+      {
+        "pais": "España",
+        "factores": {
+          "historicos": [
+            "España ha tenido una influencia significativa en la historia de Europa y América. Durante el siglo XVI y XVII, fue una de las principales potencias mundiales gracias a su imperio colonial.",
+            "La Guerra Civil Española (1936-1939) y la posterior dictadura franquista marcaron profundamente la estructura social, económica y política del país durante gran parte del siglo XX.",
+            "La transición a la democracia tras la muerte de Franco en 1975, seguida por la entrada en la Unión Europea en 1986, ha sido fundamental para el desarrollo económico y social moderno de España.",
+            "A lo largo de los siglos XX y XXI, España experimentó un proceso de industrialización y modernización, especialmente desde los años 60, con un crecimiento importante de su población y su economía."
+          ],
+          "culturales": [
+            "España tiene una rica diversidad cultural, con distintas lenguas, tradiciones y costumbres en sus diversas regiones (Cataluña, Galicia, País Vasco, etc.).",
+            "La religión católica ha jugado un papel importante en la vida de la mayoría de los españoles, aunque la secularización ha avanzado en las últimas décadas.",
+            "El turismo ha sido un motor económico clave para España, gracias a su patrimonio histórico y cultural, como la arquitectura, las playas y las festividades."
+          ],
+          "tecnologicos": [
+            "La revolución industrial en España fue más tardía en comparación con otros países europeos, pero a partir del siglo XX, especialmente con la entrada en la Unión Europea, el país ha experimentado avances significativos en tecnología, infraestructuras y digitalización.",
+            "En las últimas décadas, España ha desarrollado una destacada infraestructura en transporte (alta velocidad ferroviaria) y ha invertido en tecnología digital y energías renovables."
+          ],
+          "economicos": [
+            "Durante el siglo XX, España experimentó grandes transformaciones económicas, pasando de una economía agraria a una más industrializada y orientada hacia los servicios, especialmente el turismo.",
+            "La crisis económica de 2008 tuvo un gran impacto en España, con altas tasas de desempleo y una disminución del crecimiento económico, aunque en los últimos años ha comenzado a recuperarse.",
+            "A pesar de la recuperación, España sigue enfrentando altos niveles de deuda pública y un mercado laboral con altas tasas de temporalidad y desempleo juvenil."
+          ]
         },
-        "Proyecciones_a_futuro": {
-            "2030": "Posible estancamiento poblacional sin reformas importantes.",
-            "urbanizacion": "Creciente urbanización en áreas industriales.",
-            "demografia": "La migración interna podría equilibrar parcialmente la pérdida de población."
+        "consecuencias_efectos": [
+          "El crecimiento poblacional ha estado asociado a una urbanización acelerada, con una alta concentración de población en áreas metropolitanas como Madrid, Barcelona y la Costa Mediterránea.",
+          "El envejecimiento de la población ha comenzado a ser una preocupación seria, con una baja tasa de natalidad y una alta esperanza de vida, lo que pone presión sobre los sistemas de pensiones y salud.",
+          "El aumento de la inmigración, especialmente desde Europa del Este y América Latina, ha diversificado la población, pero también ha generado tensiones políticas y sociales en algunos sectores.",
+          "A pesar de los avances, España sigue enfrentando desafíos en términos de productividad, con una economía dependiente en gran parte del turismo, lo que la hace vulnerable a crisis globales."
+        ],
+        "oportunidades": [
+          "El turismo continúa siendo un sector clave para la economía española, y con el impulso hacia el turismo sostenible, se pueden generar nuevas oportunidades de desarrollo regional.",
+          "La transición hacia una economía verde, impulsada por la adopción de energías renovables y la mejora de la eficiencia energética, ofrece grandes oportunidades de crecimiento económico y empleo.",
+          "La digitalización y la innovación tecnológica tienen el potencial de mejorar la competitividad de las empresas españolas, especialmente en sectores como la tecnología, las telecomunicaciones y la biotecnología.",
+          "La diversidad cultural y lingüística en España puede ser una ventaja competitiva en un mundo globalizado, fomentando el intercambio intercultural y la cooperación internacional."
+        ],
+        "analisis_demografico": [
+          "La población total de España en 2024 es de aproximadamente 47 millones de personas.",
+          "La población española está envejeciendo rápidamente, con una alta proporción de personas mayores de 65 años, mientras que la tasa de natalidad sigue siendo baja.",
+          "Las áreas urbanas, especialmente Madrid, Barcelona y Valencia, concentran a la mayor parte de la población, mientras que algunas regiones rurales enfrentan una creciente despoblación.",
+          "España también ha experimentado un importante fenómeno de emigración, especialmente entre los jóvenes, quienes buscan mejores oportunidades laborales fuera del país."
+        ],
+        "proyecciones_a_futuro": [
+          "Se espera que la población de España siga envejeciendo en las próximas décadas, lo que podría generar una mayor presión sobre el sistema de pensiones y el sistema de salud.",
+          "La inmigración continuará siendo un factor clave en el crecimiento poblacional, aunque el ritmo de crecimiento podría ralentizarse si las políticas migratorias cambian.",
+          "La urbanización seguirá siendo una tendencia, lo que podría generar más desafíos en cuanto a la infraestructura, el transporte y la vivienda.",
+          "La economía española se diversificará cada vez más hacia sectores como las energías renovables y la economía digital, aunque el turismo seguirá siendo un sector clave."
+        ],
+        "posibles_soluciones": [
+          "Fomentar políticas que incentiven la natalidad, como apoyos fiscales y programas de bienestar familiar para equilibrar el envejecimiento de la población.",
+          "Promover la creación de empleo a través de la digitalización de la economía, el desarrollo de la industria verde y el impulso a la innovación tecnológica.",
+          "Desarrollar planes que reduzcan la dependencia del turismo, diversificando la economía hacia sectores más sostenibles y con mayor valor agregado.",
+          "Implementar políticas de descentralización económica y de desarrollo de infraestructuras en las zonas rurales para mitigar la despoblación.",
+          "Mejorar los servicios de salud y pensiones, especialmente para la población envejecida, con un enfoque en la atención médica preventiva y la promoción de un envejecimiento saludable."
+        ],
+        "foto": "URL_o_ruta_de_imagen_espana.jpg"
+      },
+      {
+        "pais": "Francia",
+        "factores": {
+          "historicos": [
+            "Francia ha sido una potencia histórica en Europa y el mundo, jugando un papel clave en la Revolución Francesa de 1789, que marcó el inicio de una nueva era de derechos humanos y democracias modernas.",
+            "A lo largo de los siglos XIX y XX, Francia se convirtió en una de las principales potencias coloniales, aunque perdió la mayoría de sus colonias después de la Segunda Guerra Mundial.",
+            "Tras la Segunda Guerra Mundial, Francia se unió a la Comunidad Europea en 1957 (predecesora de la Unión Europea), lo que marcó un cambio importante en su economía y políticas sociales, impulsando el crecimiento económico y la modernización."
+          ],
+          "culturales": [
+            "Francia tiene una rica tradición cultural y artística que abarca desde la literatura, el cine, la música, hasta la moda, lo que ha contribuido significativamente a su influencia global.",
+            "La sociedad francesa se caracteriza por su enfoque secular, aunque la religión católica sigue teniendo una presencia significativa, especialmente en ciertas regiones.",
+            "El multiculturalismo es una característica importante de la población francesa debido a las oleadas de inmigración, especialmente desde el Magreb, África subsahariana y otras partes de Europa."
+          ],
+          "tecnologicos": [
+            "Francia ha sido pionera en diversos campos tecnológicos, como la aviación, la energía nuclear y la tecnología espacial. La creación de empresas como Airbus y su liderazgo en la industria nuclear son ejemplos de su avance en tecnología.",
+            "En las últimas décadas, Francia ha invertido en la digitalización de su economía y ha fomentado el desarrollo de nuevas tecnologías en áreas como la inteligencia artificial, las telecomunicaciones y las energías renovables."
+          ],
+          "economicos": [
+            "Francia tiene una de las economías más grandes del mundo, con un fuerte sector industrial, una importante agricultura, y un crecimiento en el turismo y los servicios.",
+            "A pesar de ser una economía avanzada, Francia ha enfrentado desafíos económicos, especialmente durante la crisis económica global de 2008, y más recientemente durante la pandemia de COVID-19, que provocó un aumento en la deuda pública y el desempleo.",
+            "El desempleo juvenil y la falta de reformas laborales son dos problemas persistentes que Francia ha tenido que enfrentar en las últimas décadas."
+          ]
         },
-        "Posibles_soluciones": [
-            "Aumentar las oportunidades laborales en áreas rurales.",
-            "Mejorar las condiciones para la inversión extranjera."
-        ]
-    }
-}
+        "consecuencias_efectos": [
+          "El crecimiento poblacional en Francia ha sido moderado en comparación con otros países europeos, pero sigue habiendo una alta concentración de población en áreas urbanas, especialmente en París y sus alrededores.",
+          "El envejecimiento de la población es una tendencia significativa, con un aumento en la proporción de personas mayores de 65 años, lo que plantea desafíos en términos de pensiones y atención médica.",
+          "Francia ha experimentado un aumento en la inmigración, lo que ha diversificado su población y generado tensiones sociales y políticas en algunas regiones, especialmente con respecto a la integración de los inmigrantes en la sociedad.",
+          "Las disparidades regionales continúan siendo un desafío, con algunas áreas rurales y suburbanas experimentando estancamiento o incluso despoblación, mientras que las grandes ciudades siguen creciendo."
+        ],
+        "oportunidades": [
+          "Francia sigue siendo una de las principales potencias turísticas del mundo, y la continua inversión en la infraestructura turística puede generar más ingresos y empleo en este sector.",
+          "La transición hacia una economía verde, impulsada por las políticas ambientales y la adopción de energías renovables, ofrece grandes oportunidades para la creación de nuevos empleos y la innovación tecnológica.",
+          "Francia tiene un gran potencial en el sector de la inteligencia artificial y la digitalización, que puede impulsar su competitividad global y crear nuevas oportunidades en tecnología y servicios.",
+          "La diversificación de su economía hacia sectores más sostenibles y la mejora de la integración de los inmigrantes en la sociedad pueden proporcionar soluciones a los desafíos demográficos y sociales del país."
+        ],
+        "analisis_demografico": [
+          "La población de Francia en 2024 se estima en aproximadamente 67 millones de personas.",
+          "La población está envejeciendo, con una creciente proporción de personas mayores de 65 años, lo que ejerce presión sobre los sistemas de salud y pensiones.",
+          "Las áreas urbanas, especialmente París, Lille, Lyon y Marsella, concentran la mayor parte de la población, mientras que las zonas rurales enfrentan una leve despoblación.",
+          "Francia ha experimentado un crecimiento moderado debido a la inmigración, especialmente de países africanos, lo que ha contribuido a una mayor diversidad cultural en el país."
+        ],
+        "proyecciones_a_futuro": [
+          "Se espera que la población de Francia siga creciendo de manera moderada, impulsada principalmente por la inmigración y un ligero repunte en la natalidad.",
+          "El envejecimiento de la población continuará siendo una preocupación importante, lo que generará una mayor presión sobre los servicios de salud y pensiones.",
+          "Se proyecta que las disparidades regionales sigan existiendo, con un mayor crecimiento en las áreas urbanas mientras que algunas regiones rurales continuarán perdiendo población.",
+          "La digitalización y la transición hacia energías renovables impulsarán sectores clave de la economía y proporcionarán nuevas oportunidades de empleo e innovación."
+        ],
+        "posibles_soluciones": [
+          "Fomentar políticas de natalidad que apoyen a las familias jóvenes, como subsidios fiscales y programas de bienestar familiar, para equilibrar el envejecimiento de la población.",
+          "Implementar reformas laborales que favorezcan la flexibilidad y la creación de empleo de calidad, especialmente para los jóvenes y los sectores más vulnerables.",
+          "Promover la integración de los inmigrantes a través de programas educativos, sociales y laborales que faciliten su adaptación a la sociedad francesa y su inclusión en el mercado de trabajo.",
+          "Invertir en energías renovables y en la economía verde para reducir las emisiones de carbono, generar nuevos empleos y mejorar la sostenibilidad a largo plazo.",
+          "Fomentar la descentralización económica y la inversión en infraestructuras en las regiones rurales para evitar la despoblación y equilibrar el desarrollo entre las áreas urbanas y rurales."
+        ],
+        "foto": "URL_o_ruta_de_imagen_francia.jpg"
+      },
+      {
+        "pais": "Croacia",
+        "factores": {
+          "historicos": [
+            "Croacia tiene una larga historia marcada por la ocupación romana, el Imperio Austrohúngaro y la independencia de Yugoslavia en 1991 tras la desintegración del régimen socialista.",
+            "La Guerra de Independencia Croata (1991-1995) fue un punto de inflexión para el país, que luchó para separarse de Yugoslavia y establecer su soberanía.",
+            "Croacia se unió a la Unión Europea en 2013, lo que ha tenido un impacto significativo en su desarrollo económico y social, al abrir nuevas oportunidades para el comercio, la inversión y el acceso a fondos europeos."
+          ],
+          "culturales": [
+            "Croacia tiene una rica tradición cultural influenciada por sus raíces en Europa Central, el Mediterráneo y los Balcanes. Su patrimonio histórico incluye fortalezas medievales, castillos y monumentos romanos.",
+            "El país tiene una población diversa en términos de religión, con el cristianismo (principalmente católico) siendo la religión predominante, aunque también hay minorías serbias ortodoxas y musulmanas.",
+            "Las tradiciones y festividades croatas están profundamente enraizadas en la música, la danza y la gastronomía, lo que ha hecho de Croacia un destino turístico popular en Europa."
+          ],
+          "tecnologicos": [
+            "Croacia ha avanzado en tecnología e innovación en sectores como la biotecnología, la energía renovable y la digitalización. Ha invertido en el desarrollo de infraestructuras tecnológicas y en la expansión de la banda ancha.",
+            "El país ha experimentado un crecimiento en las startups tecnológicas y ha buscado integrarse más plenamente en la economía digital global.",
+            "Sin embargo, aún enfrenta desafíos en cuanto a la modernización de su infraestructura industrial y la mejora de la educación tecnológica en algunas regiones."
+          ],
+          "economicos": [
+            "La economía croata se ha basado tradicionalmente en la agricultura, la pesca y el turismo. El turismo es una fuente crucial de ingresos, especialmente en las áreas costeras del Adriático.",
+            "Tras la independencia, Croacia experimentó un período de transición económica, pasando de una economía planificada a una orientada al mercado. El país ha logrado un crecimiento significativo en las últimas dos décadas, aunque la tasa de desempleo ha sido un desafío.",
+            "El ingreso per cápita ha aumentado, pero el país sigue enfrentando desigualdades regionales y altos niveles de deuda pública."
+          ]
+        },
+        "consecuencias_efectos": [
+          "El crecimiento poblacional de Croacia ha sido moderado, con una tasa de natalidad baja y una alta tasa de emigración, especialmente entre los jóvenes que buscan oportunidades laborales en otros países de la Unión Europea.",
+          "El envejecimiento de la población ha comenzado a ser un problema, lo que ha puesto presión sobre los servicios de salud y las pensiones.",
+          "El éxodo de jóvenes y trabajadores cualificados ha afectado negativamente al mercado laboral y ha impedido el desarrollo pleno de algunos sectores económicos.",
+          "A pesar del crecimiento en el sector turístico, el país sigue enfrentando desigualdades económicas entre las regiones costeras y las zonas interiores."
+        ],
+        "oportunidades": [
+          "El turismo sigue siendo una fuente clave de ingresos, y el desarrollo de infraestructuras sostenibles y ecoturismo puede ayudar a fortalecer este sector y generar más empleos.",
+          "La transición hacia una economía verde, con inversiones en energías renovables y tecnología limpia, ofrece nuevas oportunidades para la creación de empleos y la reducción de las emisiones de carbono.",
+          "La digitalización y el fomento de las startups tecnológicas pueden ayudar a diversificar la economía y a crear una nueva generación de empleos en sectores de alta tecnología.",
+          "El potencial de Croacia para fortalecer sus lazos comerciales dentro de la UE y aprovechar los fondos de inversión europeos para el desarrollo de infraestructuras es una oportunidad clave para su crecimiento futuro."
+        ],
+        "analisis_demografico": [
+          "La población de Croacia en 2024 es de aproximadamente 4 millones de personas.",
+          "La población está envejeciendo rápidamente, con una alta proporción de personas mayores de 65 años y una baja tasa de natalidad.",
+          "El crecimiento poblacional es bajo, en parte debido a la alta emigración, especialmente hacia otros países de la Unión Europea, buscando mejores oportunidades laborales.",
+          "Las áreas urbanas como Zagreb y Split están viendo un crecimiento, mientras que algunas áreas rurales enfrentan una despoblación constante."
+        ],
+        "proyecciones_a_futuro": [
+          "Se proyecta que la población de Croacia continuará disminuyendo debido a la baja tasa de natalidad y la emigración, lo que podría generar mayores desafíos en términos de mano de obra y sostenibilidad de los servicios sociales.",
+          "El envejecimiento de la población será un desafío creciente, especialmente en la atención médica y las pensiones, lo que requerirá reformas estructurales.",
+          "El crecimiento económico moderado se proyecta a través de la diversificación del turismo y la inversión en sectores como la tecnología, la biotecnología y las energías renovables.",
+          "Se espera que la emigración siga siendo un desafío a menos que se implementen políticas que fomenten el retorno de los jóvenes emigrantes o atraigan trabajadores cualificados de fuera de la UE."
+        ],
+        "posibles_soluciones": [
+          "Implementar políticas de apoyo a las familias, como subsidios fiscales, programas de salud y guarderías, para aumentar la tasa de natalidad y equilibrar el envejecimiento de la población.",
+          "Fomentar la creación de empleo en sectores de alta tecnología, energías renovables y digitalización para reducir la dependencia del turismo y diversificar la economía.",
+          "Desarrollar programas que fomenten el retorno de los emigrantes croatas y atraigan a trabajadores cualificados mediante incentivos fiscales y de empleo.",
+          "Invertir en infraestructura en las regiones rurales para mitigar la despoblación y fomentar el desarrollo regional equilibrado.",
+          "Reformar el sistema de pensiones y salud para adaptarlo a la realidad del envejecimiento de la población, con énfasis en la atención a largo plazo y la salud preventiva."
+        ],
+        "foto": "URL_o_ruta_de_imagen_croacia.jpg"
+      }
+      
+      
+      
+    ]
+  }
+  
